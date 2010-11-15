@@ -5,5 +5,5 @@ Dependencies: Google App Engine, twilio account
 This records from a twilio voice call and sends an instant message to the user with the transcription text and link to the audio. Be easily notified of voicemail, and never have to check it again.
 
 
-This is a basic google app engine application, anyone should be able to create an application on app engine and upload this source.  You do need to configure the user IM address in main.py (USERJID)  and you need to setup a twilio phone number for and set the voice call url to http://&lt;app-id%gt;.appspot.com/call
+This is a basic google app engine application, anyone should be able to create an application on app engine and upload this source.  You do need to configure the user IM address in main.py (USERJID)  and you need to setup a twilio phone number for and set the voice call url to http://app-id.appspot.com/call
 
