@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- page located at http://example.com/voicemail_record.xml -->
+<Response>
+  <Say>
+    Please leave a message at the beep.
+  </Say>
+  <Record
+     method="POST"
+     maxLength="60"
+     finishOnKey="*"
+     transcribe="true"
+     transcribeCallback="{{ callbackurl }}"
+     />
+</Response>
