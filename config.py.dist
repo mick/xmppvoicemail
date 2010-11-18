@@ -1,0 +1,10 @@
+# change this to the JID of your Xmpp account (example: dthompson@gmail.com)
+USERJID = "you@domain.com"
+
+
+#Twilio Account ID
+TWILIO_ACID = "XXX"
+#Twilio Auth Token
+TWILIO_AUTH = "XXX"
+#Twilio number to use
+TWILIO_NUMBER = "555555555"
