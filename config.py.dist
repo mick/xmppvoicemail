@@ -8,3 +8,6 @@ TWILIO_ACID = "XXX"
 TWILIO_AUTH = "XXX"
 #Twilio number to use
 TWILIO_NUMBER = "555555555"
+
+# set the domain your using for xmpp..
+XMPP_DOMAIN = "<app_subdomain>@appspotchat.com"

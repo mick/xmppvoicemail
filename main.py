@@ -48,7 +48,7 @@ class SMSHandler(webapp.RequestHandler):
         To = self.request.get("To")
         Body = self.request.get("Body")
 
-        FromJid = From + "@xmppvoicemail.appspotchat.com"
+        FromJid = From + "@" + config.XMPP_DOMAIN
 
         xmpp.send_invite(config.USERJID, FromJid)
         xmpp.send_message(config.USERJID, Body, from_jid=FromJid)
