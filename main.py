@@ -61,7 +61,7 @@ class XMPPHandler(webapp.RequestHandler):
 
         form_fields = {
             "From": config.TWILIO_NUMBER,
-            "To": message.to[0:12],
+            "To": message.to.split("@")[0],
             "Body": message.body
             }
         form_data = urllib.urlencode(form_fields)
